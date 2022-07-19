@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for header */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: white;
+    background-color: #161616;
+    width: 1321px;
+    height: 664px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.head h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.first {
+    margin: 111px 30px 111px 106px;
+}
+
+.head img {
+    width: 581px;
+    height: 613px;
+    margin-top: 53px;
+}
+
+.head button {
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.fa-play {
+    margin-left: 10px;
+    width: 30px;
+}
