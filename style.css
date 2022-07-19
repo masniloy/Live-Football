@@ -36,12 +36,90 @@ header {
 }
 
 .head button {
-    padding: 15px 25px;
+    padding: 15px 20px;
     border-radius: 5px;
     background-color: goldenrod;
+    font-size: 16px;
 }
 
 .fa-play {
-    margin-left: 10px;
+    margin-left: 5px;
     width: 30px;
+}
+
+/* Complete Header Style */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.full {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Style for Options */
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+
+}
+
+.options {
+    background-color: #161616;
+    width: 312px;
+    height: 312px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 10px;
+
+}
+
+.options button {
+    width: 252px;
+    height: 65px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.blog {
+    background-color: goldenrod;
+}
+
+/* Complete Blog Style */
+
+
+/* Style for Blogs */
+
+.all-blogs {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    padding-top: 77px;
+}
+
+.live {
+    width: 312px;
+    height: 362px;
+    margin: 50px;
+    border: 2px solid black;
+
+
+}
+
+.live img {
+    width: 312px;
+    height: 175px;
+
 }
