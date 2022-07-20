@@ -319,6 +319,11 @@ footer {
         word-spacing: 20px;
     }
 
+
+    .footer {
+        width: 400px;
+    }
+
     .last {
         display: flex;
         flex-direction: column;
@@ -332,7 +337,7 @@ footer {
     }
 
     .footer h1 {
-        width: 500px;
+        width: 300px;
     }
 
 
