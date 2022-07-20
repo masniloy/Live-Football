@@ -179,3 +179,161 @@ footer {
     margin-top: -160px;
     margin-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 28px;
+        height: 472px;
+        width: 334px;
+        margin-top: 20px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 258px;
+        height: 178px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .head h1 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .head p {
+        text-align: center;
+    }
+
+    .head img {
+        width: 233px;
+        height: 245px;
+    }
+
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .blogs {
+
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px;
+
+    }
+
+    .options {
+        justify-content: center;
+        background-color: white;
+        width: 312px;
+        height: 312px;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+
+    }
+
+    .options button {
+        width: 252px;
+        height: 65px;
+        margin-top: 30px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .blog {
+        background-color: goldenrod;
+    }
+
+
+
+
+
+
+    .all-blogs {
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 330px);
+        grid-template-rows: repeat(1, 394px);
+        padding-top: 40px;
+    }
+
+    .live {
+        width: 335px;
+        height: 362px;
+        margin: 0;
+        margin-top: 20px;
+        border: 2px solid lightgray;
+        border-radius: 12px;
+
+
+    }
+
+    .live img {
+        width: 335px;
+        height: 175px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+    }
+
+    .title {
+        margin: 12px;
+    }
+
+    .title button {
+        width: 100px;
+        height: 25px;
+    }
+
+    .title p {
+        word-spacing: 20px;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last p {
+        margin-top: 1px;
+        margin-left: 0px;
+    }
+
+    .footer h1 {
+        width: 500px;
+    }
+
+
+}
