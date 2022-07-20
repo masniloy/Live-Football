@@ -185,6 +185,20 @@ footer {
     margin-left: 50px;
 }
 
+.social img {
+    width: 50px;
+    background-color: goldenrod;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+
+}
+
 /* Media Queris */
 /* Mobile Devices */
 
@@ -323,6 +337,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: -116px;
     }
 
     .last p {
@@ -332,6 +347,19 @@ footer {
 
     .footer h1 {
         width: 300px;
+        padding-bottom: 8px;
+        margin-top: -10px;
+    }
+
+    .social img {
+        width: 30px;
+        background-color: goldenrod;
+        margin-left: 40px;
+        border-radius: 10px;
+    }
+
+    .social {
+        margin-top: -80px;
     }
 
 
