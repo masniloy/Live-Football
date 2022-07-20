@@ -129,7 +129,7 @@ main {
 }
 
 .title {
-    margin: 10px;
+    margin: 12px;
 }
 
 .title button {
@@ -137,4 +137,45 @@ main {
     height: 25px;
 }
 
+.title p {
+    word-spacing: 20px;
+}
+
 /* Complete live matches */
+
+/* Style for footer */
+
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: wheat;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+    width: 1600px;
+    height: 444px;
+    margin-top: 120px;
+}
+
+.footer h1 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.885);
+    padding-bottom: 50px;
+    padding-top: 0;
+    width: 1200px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last p {
+    margin-top: -160px;
+    margin-left: 50px;
+}
