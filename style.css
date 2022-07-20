@@ -99,7 +99,7 @@ main {
 /* Complete Blog Style */
 
 
-/* Style for Blogs */
+/* Style for live Matches */
 
 .all-blogs {
     justify-content: center;
@@ -127,3 +127,14 @@ main {
     border-top-right-radius: 10px;
 
 }
+
+.title {
+    margin: 10px;
+}
+
+.title button {
+    width: 100px;
+    height: 25px;
+}
+
+/* Complete live matches */
