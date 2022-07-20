@@ -190,7 +190,7 @@ footer {
 
 /* Mobile Devices */
 
-@media only screen and (max-width:688px) {
+@media only screen and (max-width:600px) {
     header {
         display: flex;
         justify-content: center;
