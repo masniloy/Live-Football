@@ -92,7 +92,7 @@ main {
     font-size: 20px;
 }
 
-.blog {
+.upcoming-match {
     background-color: goldenrod;
 }
 
@@ -106,13 +106,16 @@ main {
     align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 330px);
-    grid-template-rows: repeat(3, 394px);
-    padding-top: 87px;
+    grid-template-rows: repeat(2, 265px);
+    padding-top: 94px;
 }
 
 .live {
+    display: grid;
+    justify-content: center;
+    align-items: center;
     width: 300px;
-    height: 362px;
+    height: 242px;
     margin: 25px;
     border: 2px solid lightgray;
     border-radius: 12px;
@@ -121,25 +124,27 @@ main {
 }
 
 .live img {
-    width: 300px;
-    height: 175px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 55px;
 
 }
 
-.title {
-    margin: 12px;
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
-.title button {
-    width: 100px;
-    height: 25px;
+.flag h4 {
+    margin: 18px;
 }
 
-.title p {
-    word-spacing: 20px;
-}
+
+
 
 /* Complete live matches */
 
