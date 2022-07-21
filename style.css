@@ -42,6 +42,16 @@ header {
     font-size: 16px;
 }
 
+.head h1:hover {
+    color: goldenrod;
+}
+
+.head button:hover {
+    background-color: crimson;
+    color: wheat;
+    padding: 15px 25px;
+}
+
 .fa-play {
     margin-left: 5px;
     width: 30px;
@@ -201,7 +211,9 @@ footer {
 
 
 
-/* Mobile Devices */
+/*-------------------------------------------------------
+                    Mobile Devices 
+ -------------------------------------------------------*/
 
 @media only screen and (max-width:688px) {
     header {
@@ -368,7 +380,9 @@ footer {
 
 
 
-/* Tab */
+/*--------------------------------------------------------------- 
+                                Tab 
+-----------------------------------------------------------------*/
 
 @media only screen and (min-width: 688px) and (max-width:992px) {
     header {
